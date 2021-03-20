@@ -1,5 +1,6 @@
 package ro.ase.cts.program;
 
+import ro.ase.cts.exSeminar.Templu;
 import ro.ase.cts.singletone.AsigurareMedicala;
 
 public class MainClass {
@@ -26,6 +27,16 @@ public class MainClass {
  
  System.out.println(asigurareLazy.toString());
  System.out.println(asigurareLazy1.toString());
+ 
+ Templu templu1= Templu.getInstance("Templu1", 30, 30.5f);
+ Templu templu2= Templu.getInstance("Templu2", 60, 60.5f);
+ templu1.setDenumire("DenumireInteresanta");
+ templu2.setNrSlujitori(16);
+ System.out.println(templu1.toString());
+ System.out.println(templu2.toString());
+ 
+ 
+ 
 	}
 
 }
