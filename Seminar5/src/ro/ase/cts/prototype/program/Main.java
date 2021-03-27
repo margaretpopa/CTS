@@ -20,6 +20,7 @@ public class Main {
 	
 	  Bilet bilet=new Bilet(1,"echipa1","echipa2","27 mar, 10:00");
 	  Bilet bilet1=(Bilet)bilet.copiaza();
+	  bilet1.setCod(10);
 	  System.out.println(bilet.toString());
 	  System.out.println(bilet1.toString());
 	 
