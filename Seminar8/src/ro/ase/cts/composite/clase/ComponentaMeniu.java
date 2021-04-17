@@ -3,7 +3,7 @@ package ro.ase.cts.composite.clase;
 public abstract class ComponentaMeniu {
 
 	private String nume;
-	
+	 
 	public abstract void afisareDescriere();
 	public abstract ComponentaMeniu getComponenta(int pozitia) throws Exception;
 	public abstract void adaugaComponenta(ComponentaMeniu componenta);

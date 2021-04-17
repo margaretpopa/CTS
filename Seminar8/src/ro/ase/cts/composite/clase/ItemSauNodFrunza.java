@@ -7,7 +7,7 @@ public class ItemSauNodFrunza extends ComponentaMeniu{
 		// TODO Auto-generated constructor stub
 	}
 
-	@Override
+	@Override 
 	public void afisareDescriere() {
 		// TODO Auto-generated method stub
 		System.out.println("Item" + this.getNume());

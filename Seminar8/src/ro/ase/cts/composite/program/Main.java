@@ -4,7 +4,7 @@ import ro.ase.cts.composite.clase.ItemSauNodFrunza;
 import ro.ase.cts.composite.clase.Sectiune;
 
 public class Main {
-
+ 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

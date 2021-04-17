@@ -6,11 +6,8 @@ import java.util.List;
 public class Sectiune extends ComponentaMeniu{
 
 	
-	private List<ComponentaMeniu> componente;
-	
-	
-	
-	
+	private List<ComponentaMeniu> componente; 
+		
 	public Sectiune(String nume) {
 		super(nume);
 		this.componente = new ArrayList<>();
