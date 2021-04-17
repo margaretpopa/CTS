@@ -14,20 +14,21 @@ public class ItemSauNodFrunza extends ComponentaMeniu{
 	}
 
 	@Override
-	public ComponentaMeniu getComponenta(int pozitia) {
-		throw new IndexOutOfBoundsException();
+	public ComponentaMeniu getComponenta(int pozitia) throws Exception {
+		throw new Exception("Nu se poate!");
 	}
 
 	@Override
 	public void adaugaComponenta(ComponentaMeniu componenta) {
 		// TODO Auto-generated method stub
-		
+		throw new IllegalArgumentException();
 	}
 
 	@Override
 	public void stergereComponenta(ComponentaMeniu componenta) {
 		// TODO Auto-generated method stub
 		
+		throw new IllegalArgumentException();
 	}
 
 	

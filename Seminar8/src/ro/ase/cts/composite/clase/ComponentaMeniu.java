@@ -5,7 +5,7 @@ public abstract class ComponentaMeniu {
 	private String nume;
 	
 	public abstract void afisareDescriere();
-	public abstract ComponentaMeniu getComponenta(int pozitia);
+	public abstract ComponentaMeniu getComponenta(int pozitia) throws Exception;
 	public abstract void adaugaComponenta(ComponentaMeniu componenta);
     public abstract void stergereComponenta(ComponentaMeniu componenta);
 	
