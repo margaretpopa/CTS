@@ -5,7 +5,7 @@ public class OperatorRezervare implements OperatorRezervari{
 	private String numeRestaurant;
 
 	public OperatorRezervare(String numeRestaurant) {
-		super();
+		super(); 
 		this.numeRestaurant = numeRestaurant;
 	}
 
