@@ -8,7 +8,7 @@ public class OperatorRezervare implements OperatorRezervari{
 		super(); 
 		this.numeRestaurant = numeRestaurant;
 	}
-
+ 
 	@Override
 	public void rezerva(int nrPers) {
 		// TODO Auto-generated method stub
